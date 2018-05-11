@@ -15,7 +15,7 @@ various collections in Elm compare to equivalents in JavaScript and Haskell.
 
 | Purpose                                 | JavaScript | Elm     | Haskell |
 |-----------------------------------------|------------|---------|---------|
-| Random access via key - dynamic keys    | Object     | Dict    | Map     |
+| Random access via key - dynamic keys    | Map        | Dict    | Map     |
 | Random access via key - static keys     | N/A        | records | records |
 | Unique values                           | Set        | Set     | Set     |
 | Preserve order, random access via index | Array      | Array   | Array   |
