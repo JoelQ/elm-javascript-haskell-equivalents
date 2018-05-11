@@ -51,17 +51,17 @@ don't exist in JavaScript (yet).
 
 For more details on the Haskell operators, check out this [guide].
 
-| Description           | JavaScript          | Elm                                          | Haskell |
-|-----------------------|---------------------|----------------------------------------------|---------|
-| Forwards pipe         | `|>` (experimental) | `|>`                                         | `&`     |
-| Backwards pipe        |                     | `<|`                                         | `$`     |
-| Mapping               |                     | various `map` functions                      | `<$>`   |
-| Applying              |                     | various (third party) `andMap` functions     | `<*>`   |
-| Chaining              |                     | various `andThen` and `concatMap` functions  | `>>=`   |
-| Appending             | `+`                 | `++`                                         | `<>`    |
-| Backwards composition |                     | `<<`                                         | `.`     |
-| Forwards composition  |                     | `>>`                                         |         |
-| Alternative           |                     | various (third party) `or` functions         | `<|>`   |
+| Description           | JavaScript         | Elm                                         | Haskell |
+|-----------------------|--------------------|---------------------------------------------|---------|
+| Forwards pipe         | \|> (experimental) | \|>                                         | `&`     |
+| Backwards pipe        |                    | <\|                                         | `$`     |
+| Mapping               |                    | various `map` functions                     | `<$>`   |
+| Applying              |                    | various (third party) `andMap` functions    | `<*>`   |
+| Chaining              |                    | various `andThen` and `concatMap` functions | `>>=`   |
+| Appending             | `+`                | `++`                                        | `<>`    |
+| Backwards composition |                    | `<<`                                        | `.`     |
+| Forwards composition  |                    | `>>`                                        |         |
+| Alternative           |                    | various (third party) `or` functions        | <\|>    |
 
 [guide]: https://haskell-lang.org/tutorial/operators
 
